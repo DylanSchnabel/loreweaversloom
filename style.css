@@ -2,10 +2,10 @@
 /* <uniquifier>: Use a unique and descriptive class name
  <weight>: Use a value from 200 to 1000 */
 
-.nunito-<uniquifier> {
+ .nunito-fonts {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 
@@ -229,4 +229,25 @@ blockquote {
   .main-inner a {
     color: #4cde3e;
     }
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: #123923;
+  width: 25%;
+  text-align: center;
+  border-radius: 10px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  background: #123923;
+  border-radius: 10px;
 }
